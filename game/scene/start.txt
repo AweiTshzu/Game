@@ -1,0 +1,13 @@
+; 初始场景，以及特效演示
+bgm:s_Title.mp3;
+unlockBgm:s_Title.mp3 -name=雲を追いかけて;
+intro:Hello|Welcome to this world  -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1);
+changeBg:bg.png -next;
+unlockCg:bg.png -name=良夜; // 解锁CG并赋予名称
+changeFigure: -left -next;
+setAnimation:enter-from-left -target=fig-left -next;
+Elias:Thank you for playing this game!  -fontSize=default;
+
+changeBg:why-does-your-home-look-dirtier-in-the-sunshine.jpg -next;
+:It's just another normal sunday, as usual you wake up from bed and grab yourself a coffee -fontSize=default;
+end;
